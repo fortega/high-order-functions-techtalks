@@ -1,0 +1,7 @@
+services:
+  notebook:
+    image: almondsh/almond
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/hof-techtalk
